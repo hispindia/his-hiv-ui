@@ -3,14 +3,14 @@
 
 	<parent>
 		<groupId>org.openmrs.module</groupId>
-		<artifactId>kenyaui</artifactId>
-		<version>2.0.3</version>
+		<artifactId>myanmarui</artifactId>
+		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>kenyaui-api</artifactId>
+	<artifactId>myanmarui-api</artifactId>
 	<packaging>jar</packaging>
-	<name>KenyaUI Library API</name>
-	<description>API project for KenyaUI Library</description>
+	<name>MyanmarUI Library API</name>
+	<description>API project for MyanmarUI Library</description>
 
 	<build>
 		<resources>
