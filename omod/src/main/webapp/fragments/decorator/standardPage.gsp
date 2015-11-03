@@ -4,18 +4,24 @@
 	ui.includeJavascript("kenyaui", "jquery.js", 100)
 	ui.includeJavascript("kenyaui", "select2.js", 99)
 	ui.includeJavascript("kenyaui", "jquery-ui.js", 98)
-	ui.includeJavascript("kenyaui", "angular.js", 97)
+	//ui.includeJavascript("kenyaui", "angular.js", 97)
+	ui.includeJavascript("kenyaui", "angular1.4.7.js",97)
+	ui.includeJavascript("kenyaui", "angularanimate.js",97)
+	ui.includeJavascript("kenyaui", "uibootstraptpls.js",97)
+	
 	ui.includeJavascript("kenyaui", "jquery.toastmessage.js", 96)
 	ui.includeJavascript("kenyaui", "pagebus/simple/pagebus.js", 95)
 	ui.includeJavascript("kenyaui", "ui.js", 94)
 	ui.includeJavascript("kenyaui", "kenyaui.js", 93)
 	ui.includeJavascript("kenyaui", "kenyaui-tabs.js", 92)
 	ui.includeJavascript("kenyaui", "kenyaui-legacy.js", 92)
-
+	
 	ui.includeCss("kenyaui", "select2.css", 100)
 	ui.includeCss("kenyaui", "jquery-ui.css", 99)
 	ui.includeCss("kenyaui", "toastmessage/css/jquery.toastmessage.css", 98)
 	ui.includeCss("kenyaui", "kenyaui.css", 97)
+	
+	ui.includeCss("kenyaui", "bootstrapmin.css",97)
 %>
 <!DOCTYPE html>
 <html>

@@ -8,7 +8,7 @@ jq = jQuery;
 /**
  * Configure AngularJS
  */
-angular.module('kenyaui', [])
+angular.module('kenyaui', ['ngAnimate', 'ui.bootstrap'])
 	.filter('keDateTime', function($filter) {
 		return function(input) {
 			return $filter('keDate')(input) + ' ' + $filter('keTime')(input);
