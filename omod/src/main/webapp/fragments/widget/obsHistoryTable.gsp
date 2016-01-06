@@ -8,7 +8,7 @@
 	<tr>
 		<th>Date</th>
 		<% concepts.each { %>
-		<th nowrap="nowrap">${ ui.format(it) }</th>
+		<th>${ ui.format(it) }</th>
 		<% } %>
 	</tr>
 	</thead>
@@ -20,7 +20,7 @@
 	<% } %>
 	<% data.each { date, results -> %>
 	<tr>
-		<td nowrap="nowrap" style="vertical-align: top;"><%= kenyaui.formatDate(date) %></td>
+		<td style="vertical-align: top;"><%= kenyaui.formatDate(date) %></td>
 		<% concepts.each { concept -> %>
 		<td>
 			<%
