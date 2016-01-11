@@ -16,12 +16,16 @@
 	ui.includeJavascript("kenyaui", "kenyaui-tabs.js", 92)
 	ui.includeJavascript("kenyaui", "kenyaui-legacy.js", 92)
 	
+	ui.includeJavascript("kenyaui", "jquery.thickbox.js",91)
+	
 	ui.includeCss("kenyaui", "select2.css", 100)
 	ui.includeCss("kenyaui", "jquery-ui.css", 99)
 	ui.includeCss("kenyaui", "toastmessage/css/jquery.toastmessage.css", 98)
 	ui.includeCss("kenyaui", "kenyaui.css", 97)
 	
 	ui.includeCss("kenyaui", "bootstrapmin.css",97)
+	
+	ui.includeCss("kenyaui", "thickbox.css",92)
 %>
 <!DOCTYPE html>
 <html>

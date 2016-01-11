@@ -18,11 +18,13 @@
                 <entry key="scripts/angular1.4.7.js" value="scripts/angular.js" />
 				<entry key="scripts/angularanimate.js" value="scripts/angular-animate.js" />
 				<entry key="scripts/uibootstraptpls.js" value="scripts/ui-bootstrap-tpls-0.14.3.js" />
+				<entry key="scripts/jquery.thickbox.js" value="scripts/jquery.thickbox.js" />
 				
 				<!-- CSS -->
 				<entry key="styles/jquery-ui.css" value="styles/jquery-ui-1.10.3.custom.css" />
 				<entry key="styles/select2.css" value="styles/select2-3.4.5.css" />
 				<entry key="styles/bootstrapmin.css" value="styles/bootstrap.min.css" />
+				<entry key="styles/thickbox.css" value="styles/thickbox.css" />
 			</map>
 		</property>
 	</bean>
